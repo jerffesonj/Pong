@@ -33,13 +33,13 @@ public class PaddleScript : MonoBehaviour
         if (player == Player.Player2)
             GameController.playerAIListener -= ActivateIA;
     }
-
+    
     public void ActivateIA()
     {
         if (GetComponent<PaddleIA>())
         {
             GetComponent<PaddleIA>().enabled = true;
-            this.enabled = false;
+            //this.enabled = false;
         }
     }
 

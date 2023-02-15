@@ -139,6 +139,7 @@ public class GameController : MonoBehaviour
             {
                 gameOver.SetWinner("You Win", pointsP1, pointsP2);
                 menu.ShowGameOverObjects();
+
             }
             else if (pointsP2 >= maxPoints)
             {
